@@ -1,7 +1,11 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Application Template",
-    "keywords": ["yii2", "framework", "basic", "application template"],
+    "name": "yiisoft/yii2-qa-demo",
+    "description": "Yii 2 Basic Application Demo",
+    "keywords": [
+        "yii2",
+        "framework",
+        "demo"
+    ],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
     "license": "BSD-3-Clause",
@@ -15,12 +19,13 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": "~2.0.0",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
+        "dektrium/yii2-user": "*",
         "artkost/yii2-qa": "*",
-		"artkost/yii2-trumbowyg": "*",
-        "dektrium/yii2-user": "*"
+        "artkost/yii2-taxonomy": "*",
+        "artkost/yii2-trumbowyg": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
