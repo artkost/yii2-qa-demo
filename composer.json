@@ -27,7 +27,14 @@
 
         "artkost/yii2-qa": "*",
         "artkost/yii2-taxonomy": "*",
-        "artkost/yii2-trumbowyg": "*"
+        "artkost/yii2-trumbowyg": "*",
+        
+        "bower-asset/jquery": "@stable",
+        "bower-asset/bootstrap": "@stable",
+        "bower-asset/jquery-ui": "@stable",
+        "bower-asset/jquery.inputmask": "@stable",
+        "bower-asset/punycode": "@stable",
+        "bower-asset/fotorama": "@stable"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "~2.0.0",
