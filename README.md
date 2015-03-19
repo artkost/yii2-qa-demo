@@ -1,4 +1,5 @@
-yii2-qa-demo
-============
+Yii2 Qestions and Answers module demo site
 
-Demo site of yii2-qa module
+### Install
+
+` php composer.phar create-project --prefer-dist --stability=dev artkost/yii2-qa-demo basic`
