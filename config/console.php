@@ -9,7 +9,7 @@ $modules = require(__DIR__ . '/modules.php');
 return [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log', 'gii'],
+    'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
     'modules' => $modules,
     'components' => [
