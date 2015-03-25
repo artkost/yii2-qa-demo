@@ -1,6 +1,7 @@
 <?php
 
 $params = require(__DIR__ . '/params.php');
+$modules = require(__DIR__ . '/modules.php');
 
 $config = [
     'id' => 'basic',
@@ -8,21 +9,7 @@ $config = [
     'bootstrap' => ['log', 'qa'],
     'language' => 'ru',
     'defaultRoute' => 'qa',
-    'modules' => [
-        'user' => [
-            'class' => 'dektrium\user\Module',
-            'enableUnconfirmedLogin' => true,
-            'confirmWithin' => 21600,
-            'cost' => 12,
-            'admins' => ['admin']
-        ],
-        'qa' => [
-            'class' => 'artkost\qa\Module',
-            'userNameFormatter' => function($model) {
-                return $model->username ? $model->username : $model->id;
-            }
-        ],
-    ],
+    'modules' => $modules,
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -30,10 +17,6 @@ $config = [
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
-        ],
-        'user' => [
-            'identityClass' => 'dektrium\user\models\User',
-            'enableAutoLogin' => true,
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

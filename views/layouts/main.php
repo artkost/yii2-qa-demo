@@ -39,6 +39,7 @@ AppAsset::register($this);
         'options' => ['class' => 'nav navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'Github', 'url' => 'https://github.com/artkost/yii2-qa-demo'],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/user/security/login']] :
                 ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
