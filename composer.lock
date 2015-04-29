@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "artkost/yii2-qa",
-            "version": "0.3.3",
+            "version": "0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/artkost/yii2-qa.git",
-                "reference": "46c5c4682ff7a87b35f27098491dee72c11c8dfd"
+                "reference": "d414b022501cdf0db35cfc22a34aaae01b413cf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/artkost/yii2-qa/zipball/46c5c4682ff7a87b35f27098491dee72c11c8dfd",
-                "reference": "46c5c4682ff7a87b35f27098491dee72c11c8dfd",
+                "url": "https://api.github.com/repos/artkost/yii2-qa/zipball/d414b022501cdf0db35cfc22a34aaae01b413cf0",
+                "reference": "d414b022501cdf0db35cfc22a34aaae01b413cf0",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "question",
                 "yii2"
             ],
-            "time": "2015-04-29 21:36:54"
+            "time": "2015-04-29 22:29:03"
         },
         {
             "name": "artkost/yii2-taxonomy",
