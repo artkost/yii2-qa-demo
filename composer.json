@@ -28,7 +28,8 @@
         "artkost/yii2-qa": "@stable",
         "artkost/yii2-taxonomy": "*",
         "artkost/yii2-trumbowyg": "*",
-        
+        "cebe/yii2-gravatar": "*",
+
         "bower-asset/jquery": "@stable",
         "bower-asset/bootstrap": "@stable",
         "bower-asset/jquery-ui": "@stable",
