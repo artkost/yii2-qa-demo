@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = 'Artkost Yii2 QA ';
 ?>
 <div class="site-index">
 
