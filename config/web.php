@@ -17,6 +17,7 @@ $config = [
         ],
         'user' => [
             'identityClass' => 'dektrium\user\models\User',
+            'loginUrl' => ['/user/login']
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
