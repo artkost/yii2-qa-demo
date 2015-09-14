@@ -41,7 +41,7 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Github', 'url' => 'https://github.com/artkost/yii2-qa-demo'],
             Yii::$app->user->isGuest ?
-                ['label' => 'Login', 'url' => ['/user/security/login']] :
+                ['label' => 'Login (demo : demodemo)', 'url' => ['/user/security/login']] :
                 ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                     'url' => ['/user/security/logout'],
                     'linkOptions' => ['data-method' => 'post']],
